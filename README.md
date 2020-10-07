@@ -1,0 +1,1 @@
+This project is an e-commerce web application follwoing the MVC pattern. This project utilizes 'my_grocery_store.sql' database for it's products. This database must be installed on your local host in order to run this application.
