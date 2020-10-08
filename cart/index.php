@@ -15,7 +15,6 @@ $products['MMS-1754'] = array('name' => 'Apple 6lbs', 'cost' => '2.86');
 $products['MMS-6289'] = array('name' => 'Beef 3lbs', 'cost' => '10.99');
 $products['MMS-3408'] = array('name' => 'Baby Soft Lice Killer', 'cost' => '14.99');
 
-
 // Include cart functions
 require_once('cart.php');
 
