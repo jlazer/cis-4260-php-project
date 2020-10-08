@@ -4,7 +4,7 @@
 <head>
     <title>Group 1: My Grocery Store</title>
     <link rel="stylesheet" type="text/css"
-          href="/cis4260/GroupProject/ch5GroupDB/main.css">
+          href="../main.css">
 </head>
 
 <!-- the body section -->

@@ -11,9 +11,8 @@ if (empty($_SESSION['cart'])) { $_SESSION['cart'] = array(); }
 
 // Create a table of products
 $products = array();
-$products['MMS-1754'] = array('name' => 'Flute', 'cost' => '149.50');
-$products['MMS-6289'] = array('name' => 'Trumpet', 'cost' => '199.50');
-$products['MMS-3408'] = array('name' => 'Clarinet', 'cost' => '299.50');
+$products['fruit'] = array('name' => 'Apple', 'cost' => '1.50');
+
 
 // Include cart functions
 require_once('cart.php');
