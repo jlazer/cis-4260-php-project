@@ -11,8 +11,9 @@ if (empty($_SESSION['cart'])) { $_SESSION['cart'] = array(); }
 
 // Create a table of products
 $products = array();
-$products['fruit'] = array('name' => 'Apple', 'cost' => '1.50');
-
+$products['MMS-1754'] = array('name' => 'Apple 6lbs', 'cost' => '2.86');
+$products['MMS-6289'] = array('name' => 'Beef 3lbs', 'cost' => '10.99');
+$products['MMS-3408'] = array('name' => 'Baby Soft Lice Killer', 'cost' => '14.99');
 
 // Include cart functions
 require_once('cart.php');
@@ -22,7 +23,7 @@ $action = filter_input(INPUT_POST, 'action');
 if ($action === NULL) {
     $action = filter_input(INPUT_GET, 'action');
     if ($action === NULL) {
-        $action = 'show_add_item';
+        $action = 'show_add_item'; 
     }
 }
 
