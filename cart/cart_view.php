@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Group 1 Project</title>
-    <link rel="stylesheet" type="text/css" href="/cis4260/GroupProject/ch5GroupDB/main.css">
+    <link rel="stylesheet" type="text/css" href="../main.css">
 </head>
 <body>
     <header>
